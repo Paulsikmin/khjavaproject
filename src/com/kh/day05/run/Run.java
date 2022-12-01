@@ -12,9 +12,5 @@ public class Run {
 		//exWhile.exercise2();
 		Exercise_Array exArr = new Exercise_Array();
 		exArr.exercise7();
-//		new Exercise_Array().exercise6();
-//		new Exercise_Array().exercise5();
-//		new Exercise_Array().exercise4();
-//		new Exercise_Array().exercise3();
 	}
 }

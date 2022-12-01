@@ -55,9 +55,11 @@ public class Exercise_ScoreProgram2 {
 		System.out.println("총점 : " + sum);
 		System.out.printf("평균 : %.2f \n",avg);
 	}
+	
 	public static void goodByeMsg() {
 		System.out.println("Good Bye~");
 	}
+	
 	public static void printException() {
 		System.out.println("1 ~ 3 사이의 수를 입력해주세요!");
 	}
