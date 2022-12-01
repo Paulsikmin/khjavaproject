@@ -21,16 +21,16 @@ public class Exam_SortSelect {
 		// i=3일때
 		// 1, 2, 3, 4, 5 // 네번째 결과
 		int [] arrs = {2, 5, 4, 1, 3};
-		int min; // 인덱스값 저장
+		int minIndex; // 인덱스값 저장
 		for(int i = 0; i < arrs.length; i++) {
-			min = i; // 가장 작을 때 인덱스 값
+			minIndex = i; // 가장 작을 때 인덱스 값
 			for(int j = i+1; j < arrs.length; j++) {
-				if(arrs[min] > arrs[j]) {
-					min = j;
+				if(arrs[minIndex] > arrs[j]) {
+					minIndex = j;
 				}
 			}
-			int temp = arrs[min];
-			arrs[min] = arrs[i];
+			int temp = arrs[minIndex];
+			arrs[minIndex] = arrs[i];
 			arrs[i] = temp;
 		}
 		for(int i = 0; i < arrs.length; i++) {
