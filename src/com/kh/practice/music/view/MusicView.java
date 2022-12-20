@@ -1,6 +1,7 @@
 package com.kh.practice.music.view;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 import com.kh.practice.music.model.vo.Music;
@@ -79,6 +80,18 @@ public class MusicView {
 				"검색한 곡의 곡명은 : " + music.getTitle() 
 				+ ", 가수명은 : " + music.getSinger() 
 				+ "입니다.");
+	}
+	
+	public void displaySuccess(String message) {
+		System.out.println("[서비스 성공] : " + message);
+	}
+	
+	public void displayError(String message) {
+		System.out.println("[서비스 실패] : " + message);
+	}
+	
+	public void printMessage(String message) {
+		System.out.println(message);
 	}
 }
 
